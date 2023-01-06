@@ -15,7 +15,7 @@ app.use(cors());
 
 // Database setup
 const CONNECTION_URL =
-  "mongodb+srv://clintjeez:clintjeezpass@cluster0.qthnayf.mongodb.net/?retryWrites=true&w=majority";
+ // url hidden at env file
 const PORT = process.env.PORT || 5000;
 
 mongoose.set("strictQuery", false);
